@@ -1,0 +1,37 @@
+body {
+	background-color: #575353;
+	color: #FFFFFF;
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+}
+.title-font {
+	font-family: 'IM FELL DW Pica', serif;
+}
+.header-photo {
+	width: 100%;
+}
+.sport-photo-div {
+	width: 40%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+.sport-photo {
+	width: 100%;
+}
+.photo-container {
+	display: flex;
+	justify-content: center;
+}
+.red-bg {
+	background-color: #983628;
+}
+.margin-5 {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.text-center {
+	text-align: center;
+}
+.sport-container {
+	margin-top: 50px;
+}
