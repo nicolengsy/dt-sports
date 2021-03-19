@@ -35,3 +35,10 @@ body {
 .sport-container {
 	margin-top: 50px;
 }
+.caption {
+	padding: 5px 20px;
+	margin-top: 10px;
+}
+footer {
+	padding-top: 50px;
+}
