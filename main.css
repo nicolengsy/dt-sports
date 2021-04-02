@@ -7,7 +7,7 @@ body {
 }
 .title-font {
 	font-family: 'IM FELL DW Pica', serif;
-	color: #675D51;
+	color: #E1DFDE;
 }
 .header-photo {
 	width: 100%;
@@ -23,6 +23,7 @@ body {
 .photo-container {
 	display: flex;
 	justify-content: center;
+	margin-top: 50px;
 }
 .red-bg {
 	background-color: #4F000B;
@@ -35,7 +36,10 @@ body {
 	text-align: center;
 }
 .sport-container {
-	margin-top: 50px;
+	width: 80%;
+	margin: auto;
+	margin-top: 100px;
+	border: 2px solid #4F000B;
 }
 .caption {
 	padding: 5px 20px;
@@ -44,6 +48,17 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+}
+.title-container {
+	background-color: #4F000B;
+	margin: auto;
+	padding: 5px;
+}
+.heading-container {
+	padding: 3px;
+	width: 35%;
+	margin: auto;
+	margin-top: 10px;
 }
 footer {
 	padding-top: 50px;
