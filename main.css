@@ -60,6 +60,10 @@ body {
 	margin: auto;
 	margin-top: 10px;
 }
+.photo-credit {
+	font-style: italic;
+	opacity: 0.5;
+}
 footer {
 	padding-top: 50px;
 }
