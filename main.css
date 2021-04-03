@@ -72,6 +72,17 @@ margin-right: auto;
 	justify-content: center;
 	margin-top: 50px;
 }
+@media only screen and (max-width: 600px) {
+  .photo-container {
+    flex-direction: column;
+     align-items: center;
+  }
+  .sport-photo-div {
+  	width: 80%;
+  	margin-top: 20px;
+  }
+
+}
 .red-bg {
 	background-color: #AB1D2D;
 }
@@ -131,6 +142,9 @@ margin-right: auto;
 
 .dropshadow {
 	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.left-center {
+	text-align: justify;
 }
 footer {
 	padding-top: 50px;
