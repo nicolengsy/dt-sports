@@ -1,3 +1,5 @@
+/*another red: AB1D2D*/
+/*deep red: 4F000B*/
 body {
 	background-color: #E1DFDE;
 	color: #4F000B;
@@ -5,9 +7,54 @@ body {
 	/*font-style:;*/
 	margin: 0;
 }
+body, html {
+	height: 100%;
+}
+.logo-container {
+	margin: auto;
+	width: 100%;
+	position: absolute;
+	left: 0px;
+	top: 10px;
+	text-align: center;
+margin-left: auto;
+margin-right: auto;
+	z-index: 5;
+}
+.logo-container img {
+	width: 150px;
+}
+.back {
+	background-image: linear-gradient(to bottom, transparent 60%, #E1DFDE), url("img/sportsphotoessay_simonparkcover.jpg");
+}
+.front {
+	background-image: linear-gradient(to bottom, transparent 60%, #E1DFDE), url("img/sportsphotoessay_lingluocover.jpg");	
+}
+.parallax {
+	  /* The image used */
+	  background-image: url("img/sportsphotoessay_lingluocover.jpg");
+
+	  /* Set a specific height */
+	  height: 100%;
+
+	  /* Create the parallax scrolling effect */
+	  background-attachment: fixed;
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+}
 .title-font {
-	font-family: 'IM FELL DW Pica', serif;
-	color: #E1DFDE;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+	color: #F4F4F4;
+	/*font-size: 40px;*/
+}
+.heading-font {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	color: #AB1D2D;
+	font-size: 40px;	
 }
 .header-photo {
 	width: 100%;
@@ -26,7 +73,7 @@ body {
 	margin-top: 50px;
 }
 .red-bg {
-	background-color: #4F000B;
+	background-color: #AB1D2D;
 }
 .margin-5 {
 	margin-left: 5%;
@@ -39,7 +86,9 @@ body {
 	width: 80%;
 	margin: auto;
 	margin-top: 100px;
-	border: 2px solid #4F000B;
+	/*border: 2px solid #AB1D2D;*/
+	background-color: #F4F4F4;
+	/*background: linear-gradient(to bottom, #AB1D2D, #F4F4F4);*/
 }
 .caption {
 	padding: 5px 20px;
@@ -50,13 +99,13 @@ body {
 	text-align: center;
 }
 .title-container {
-	background-color: #4F000B;
+	background-color: #AB1D2D;
 	margin: auto;
 	padding: 5px;
 }
 .heading-container {
 	padding: 3px;
-	width: 35%;
+	width: 50%;
 	margin: auto;
 	margin-top: 10px;
 }
@@ -64,6 +113,26 @@ body {
 	font-style: italic;
 	opacity: 0.5;
 }
+/*for scrolling*/
+.img-wrapper {
+  display: grid;
+  height: 100vh;
+}
+ 
+.img-wrapper div {
+  grid-column: 1;
+  grid-row: 1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: var(--gray);
+  transition: opacity 0.1s;
+}
+
+.dropshadow {
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 footer {
 	padding-top: 50px;
+	padding-bottom: 30px;
 }
