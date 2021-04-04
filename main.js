@@ -1,5 +1,5 @@
 // fade effect from https://webdesign.tutsplus.com/tutorials/simple-fade-effect-on-scroll--cms-35166
-const checkpoint = 50;
+const checkpoint = 150;
 
 window.addEventListener("scroll", () => {
   const currentScroll = window.pageYOffset;
